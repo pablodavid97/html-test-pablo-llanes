@@ -1,0 +1,130 @@
+@media screen and (max-width: 768px) {
+  .pricing {
+    &__header {
+      max-width: 640px!important;
+    }
+
+    &__subtitle {
+      font-size: 1.9rem!important;
+    }
+
+    &__txt {
+      margin: 1.2rem 2.8rem!important;
+      font-size: 1rem;
+    }
+
+    &__cards-container {
+      max-width: 700px!important;
+    }
+
+    &__card-header {
+      padding-left: 1rem!important;
+      padding-right: 1rem!important;
+      padding-bottom: 1.6rem!important;
+    }
+
+    &__card-title {
+      font-size: 1.4rem!important;
+    }
+
+    &__card-price {
+      font-size: 2.2rem!important;
+    }
+
+    &__text-muted {
+      font-size: 1.1rem!important;
+    }
+
+    &__card-btn {
+      padding-left: 1.8rem!important;
+      padding-right: 1.8rem!important;
+    }
+
+    &__card--right {
+      position: relative;
+      top: 1rem;
+    }
+
+    &__card--popular {
+      position: relative;
+      top: 1rem;
+    }
+
+    &__card-popular-lbl {
+      width: 165px!important;
+      font-size: 0.85rem!important;
+      padding: 1px 0!important;
+    }
+
+    &__card-btn--popular {
+      padding-left: 3.8rem!important;
+      padding-right: 3.8rem!important;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .pricing {
+    justify-content: flex-start!important;
+
+    &__header {
+      max-width: 350px!important;
+      margin-top: 5rem!important;
+      margin-bottom: 2rem!important;
+    }
+
+    &__subtitle {
+      font-size: 1.7rem!important;
+    }
+
+    &__txt {
+      margin: 1.2rem 2rem!important;
+      font-size: 1rem;
+    }
+
+    &__cards-container {
+      flex-direction: column;
+      width: 100vw;
+    }
+
+    &__card {
+      display: block!important;
+      margin-bottom: 1.2rem!important;
+      border-radius: 12px!important;
+    }
+
+    &__card-header {
+      padding: 2rem 5.5rem!important;
+    }
+
+    &__card-title {
+      font-size: 1.4rem!important;
+    }
+
+    &__card-price {
+      font-size: 2.5rem!important;
+    }
+
+    &__card--right {
+      margin-bottom: 5rem!important;
+    }
+
+    &__card-btn {
+      padding-left: 6rem!important;
+      padding-right: 6rem!important;
+    }
+
+    &__card--popular {
+      margin-bottom: 2.3rem!important;
+    }
+
+    &__card--popular &__card-header {
+      padding-top: 5px!important;
+    }
+
+    &__card-btn--popular {
+      padding-left: 6.5rem!important;
+      padding-right: 6.5rem!important;
+    }
+  }
+}

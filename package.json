@@ -1,0 +1,17 @@
+{
+  "name": "html-test-pablo-llanes",
+  "version": "1.0.0",
+  "description": "Please create the HTML and CSS for the provided comps in the \"_comps\" folder",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp watch"
+  },
+  "author": "Pablo Llanes",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.27.3",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.35.1"
+  }
+}
